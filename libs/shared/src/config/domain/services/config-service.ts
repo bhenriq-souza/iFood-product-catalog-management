@@ -1,6 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService as NestConfigService } from '@nestjs/config';
 
+export const ConfigServiceKey = Symbol('ConfigService');
+
 @Injectable()
 export class ConfigService {
   constructor(private configService: NestConfigService) {}
@@ -19,6 +21,10 @@ export class ConfigService {
 
   get slackWebhookUrl(): string {
     return this.configService.get<string>('SLACK_INC_WEBHOOK_URL');
+  }
+
+  get mongoUri(): string {
+    return this.configService.get<string>('MONGO_URI');
   }
 
   private get environment(): string {
