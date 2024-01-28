@@ -17,6 +17,10 @@ export class ConfigService {
     return this.environment === 'test';
   }
 
+  get slackWebhookUrl(): string {
+    return this.configService.get<string>('SLACK_INC_WEBHOOK_URL');
+  }
+
   private get environment(): string {
     return this.configService.get<string>('NODE_ENV');
   }
