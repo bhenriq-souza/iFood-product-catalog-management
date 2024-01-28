@@ -1,0 +1,30 @@
+.
+├── README.md
+├── nest-cli.json
+├── package-lock.json
+├── package.json
+├── project-structure.txt
+├── src
+│   ├── app.controller.spec.ts
+│   ├── app.controller.ts
+│   ├── app.module.ts
+│   ├── app.service.ts
+│   ├── category
+│   │   ├── category.controller.spec.ts
+│   │   ├── category.controller.ts
+│   │   ├── category.module.ts
+│   │   ├── category.service.spec.ts
+│   │   ├── category.service.ts
+│   │   ├── dto
+│   │   │   ├── create-category.dto.ts
+│   │   │   └── update-category.dto.ts
+│   │   └── entities
+│   │       └── category.entity.ts
+│   └── main.ts
+├── test
+│   ├── app.e2e-spec.ts
+│   └── jest-e2e.json
+├── tsconfig.build.json
+└── tsconfig.json
+
+5 directories, 22 files
