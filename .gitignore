@@ -1,6 +1,6 @@
 # compiled output
-/app/api/dist
-/app/api/node_modules
+/dist
+/node_modules
 
 # Logs
 logs
@@ -12,11 +12,11 @@ yarn-error.log*
 lerna-debug.log*
 
 # OS
-/app/api/.DS_Store
+.DS_Store
 
 # Tests
-/app/api/coverage
-/app/api/.nyc_output
+/coverage
+/.nyc_output
 
 # IDEs and editors
 /.idea
