@@ -1,0 +1,4 @@
+config:
+  gcp:project: catalogue-challange-dev
+  gcp:region: us-east1
+  gcp:credentials: /home/bhs/.gcp/catalogue-challange-dev-key.json
