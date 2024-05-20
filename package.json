@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@pulumi/gcp": "^7.23.0",
+    "@pulumi/pulumi": "^3.116.1",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.5"
+  }
 }
